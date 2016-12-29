@@ -9,5 +9,5 @@ int main()
 	std::cout << *p.get() << '\n';
 	p.reset();
 	std::cout << std::boolalpha << static_cast<bool>(p) << '\n';
-
+	//TEST
 }
